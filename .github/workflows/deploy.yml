@@ -23,7 +23,7 @@ jobs:
           echo "=== CONFIGURATION CHECK ==="
           if [ -f "settings.js" ]; then
             echo "✓ Configuration file found"
-            echo "Session ID present: $(grep -q 'SESSION_ID' settings.js && echo 'Yes' || echo 'No')"
+            echo "Session ID present: $(grep -q 'Ice~AfxcO8' settings.js && echo 'Yes' || echo 'No')"
           else
             echo "✗ Configuration file missing!"
             exit 1
